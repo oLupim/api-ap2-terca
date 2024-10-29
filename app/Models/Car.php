@@ -7,6 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class Car extends Model
 {
     protected $fillable = [
-        "placa","quilometragem","modelo","marca",
+        "placa",
+        "quilometragem",
+        "modelo",
+        "marca",
     ];
 }
